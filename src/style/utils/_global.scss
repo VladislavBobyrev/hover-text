@@ -1,0 +1,24 @@
+html {
+  display: flex;
+  min-height: -webkit-fill-available;
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+  line-height: 1.5;
+  color: $color-secondary;
+  background: linear-gradient(45deg, #ff0057, #2196f3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8rem;
+}
